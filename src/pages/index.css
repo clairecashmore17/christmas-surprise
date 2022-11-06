@@ -1,0 +1,35 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-jiggle {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+.btn-jiggle:hover {
+  box-shadow: 0 2px var(--grey);
+  top: -2px;
+}
+.btn-jiggle:active {
+  box-shadow: 0 0px var(--grey);
+  top: 0;
+}
+.start-game {
+  margin-top: 20%;
+  background-color: rgb(196, 49, 49);
+  color: rgb(3, 57, 3);
+  width: 200px;
+  height: 100px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+
+.start-game:hover {
+  background-image: url("../../public/images/peeking-elf.jpeg");
+  background-position: center;
+  background-size: 80%;
+  color: black;
+}

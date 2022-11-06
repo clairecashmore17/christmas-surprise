@@ -1,0 +1,7 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.nav-item a {
+  text-decoration: none;
+}
