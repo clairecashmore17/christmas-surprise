@@ -1,0 +1,47 @@
+.town {
+  background-image: url("../../public/images/TownMap.png");
+  width: 980px;
+  height: 650px;
+  display: block;
+  position: relative;
+}
+.santas-ws {
+  position: absolute;
+  top: 10%;
+  left: 14.5%;
+  height: 128px;
+  width: 178px;
+  border: none;
+  background: none;
+}
+.santas-ws:hover {
+  background-image: url("../../public/images/Santas-House.png");
+  background-position: center;
+  background-size: cover;
+}
+.shack {
+  position: absolute;
+  top: 10%;
+  right: 10.3%;
+  height: 130px;
+  width: 180px;
+  background: none;
+  border: none;
+}
+.shack:hover {
+  background-image: url("../../public/images/reindeer-hover.gif");
+}
+.bakery {
+  position: absolute;
+  bottom: 16%;
+  right: 28%;
+  height: 128px;
+  width: 178px;
+  border: none;
+  background: none;
+}
+.bakery:hover {
+  background-image: url("../../public/images/Bakery.png");
+  background-position: center;
+  background-size: cover;
+}
