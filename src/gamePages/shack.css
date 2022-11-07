@@ -1,0 +1,11 @@
+.reindeer-shack {
+  width: 980px;
+  height: 650px;
+  background-image: url(../../public/images/reindeer-background.png);
+  background-size: 128%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 15px rgba(88, 53, 7, 0.863);
+  border-radius: 15px;
+  position: relative;
+}

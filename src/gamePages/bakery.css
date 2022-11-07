@@ -1,0 +1,11 @@
+.bakery-building {
+  width: 980px;
+  height: 650px;
+  background-image: url("../../public/images/bakery-background.png");
+  background-size: 128%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 15px rgba(142, 11, 11, 0.863);
+  border-radius: 15px;
+  position: relative;
+}

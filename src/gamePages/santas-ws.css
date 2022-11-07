@@ -1,0 +1,8 @@
+.workshop {
+  width: 980px;
+  height: 650px;
+  background-image: url("../../public/images/Santasworkshop.jpg");
+  border: solid 15px rgba(142, 11, 11, 0.863);
+  border-radius: 15px;
+  position: relative;
+}
