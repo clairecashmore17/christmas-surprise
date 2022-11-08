@@ -9,7 +9,7 @@ const SantasWorkshop = () => {
       <Link to="/town">
         <Fab variant="extended">← Back to Town</Fab>
       </Link>
-      <div className="workshop">SantasWorkshop</div>
+      <div className="workshop"></div>
     </div>
   );
 };

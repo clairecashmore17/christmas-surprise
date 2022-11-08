@@ -1,0 +1,24 @@
+.dialog-box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.diaolog-text {
+  margin: 50px 100px 0 100px;
+  background-color: black;
+  color: gold;
+  border: gold solid 5px;
+  padding: 20px;
+  font-size: xx-large;
+}
+.dialogue-next {
+  margin-top: 10px;
+  /* align-items: center; */
+  height: 30px;
+  width: 80px;
+  border: 5px solid black;
+  background-color: rgb(116, 11, 11);
+  color: rgb(156, 249, 181);
+  font-size: large;
+}

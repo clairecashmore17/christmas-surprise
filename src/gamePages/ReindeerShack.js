@@ -8,7 +8,7 @@ const Shack = () => {
       <Link to="/town">
         <Fab variant="extended">← Back to Town</Fab>
       </Link>
-      <div className="reindeer-shack">Shack</div>
+      <div className="reindeer-shack"></div>
     </div>
   );
 };
