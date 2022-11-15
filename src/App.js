@@ -8,19 +8,26 @@ import Town from "./gamePages/Town";
 import SantasWorkshop from "./gamePages/SantasWorkshop";
 import Shack from "./gamePages/ReindeerShack";
 import Bakery from "./gamePages/Bakery";
+import { GameProvider } from "./utils/GlobalState";
+import Dialogue from "./components/DialogueBox";
+import React, { useState, useEffect } from "react";
+import Note from "./gamePages/Note";
 function App() {
   return (
     <Router>
-      <Nav />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/highscores" element={<Highscore />} />
-        <Route exact path="/characters" element={<Characters />} />
-        <Route path="/town" element={<Town />} />
-        <Route path="/santas-workshop" element={<SantasWorkshop />} />
-        <Route path="/reindeer-shack" element={<Shack />} />
-        <Route path="/bakery" element={<Bakery />} />
-      </Routes>
+      <GameProvider>
+        <Nav />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/highscores" element={<Highscore />} />
+          <Route exact path="/characters" element={<Characters />} />
+          <Route path="/town" element={<Town />} />
+          <Route path="/santas-workshop" element={<SantasWorkshop />} />
+          <Route path="/note" element={<Note />} />
+          <Route path="/reindeer-shack" element={<Shack />} />
+          <Route path="/bakery" element={<Bakery />} />
+        </Routes>
+      </GameProvider>
     </Router>
   );
 }

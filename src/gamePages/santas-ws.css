@@ -2,6 +2,49 @@
   width: 980px;
   height: 650px;
   background-image: url("../../public/images/Santasworkshop.jpg");
+  background-size: cover;
+  border: solid 15px rgba(142, 11, 11, 0.863);
+  border-radius: 15px;
+  position: relative;
+}
+.radio {
+  position: absolute;
+  /* background-image: url("../../public/images/radio-hover.png"); */
+  /* background-position: center; */
+
+  top: 46.2%;
+  right: 37.3%;
+  height: 117px;
+  width: 192px;
+  background: none;
+  border: none;
+}
+.radio:hover {
+  background-image: url("../../public/images/radio-hover.png");
+  background-size: 102%;
+}
+
+.note {
+  position: absolute;
+  background: none;
+  /* background-position: center; */
+  background-size: 102%;
+
+  top: 57.7%;
+  right: 66.5%;
+  height: 90px;
+  width: 100px;
+  border: none;
+}
+.note:hover {
+  background-image: url("../../public/images/Note.jpg");
+}
+
+.note-page {
+  width: 980px;
+  height: 650px;
+  background-image: url("../../public/images/Note-page.jpg");
+  background-size: cover;
   border: solid 15px rgba(142, 11, 11, 0.863);
   border-radius: 15px;
   position: relative;

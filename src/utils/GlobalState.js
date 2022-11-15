@@ -1,23 +1,31 @@
-import React, { createContext, useContext } from "react";
-import { useProductReducer } from "./reducers";
+import React, { createContext, useContext, useReducer } from "react";
 
-const GameContext = createContext();
-const { Provider } = GameContext;
+const globalState = {
+  town: 0,
+  santas: 0,
+  bakery: 0,
+  reindeer: 0,
+};
+const GameContext = createContext(globalState);
+const dispatchStateContext = createContext(undefined);
 
-const GameProvider = ({ value = [], ...props }) => {
-  const [state, dispatch] = useProductReducer({
-    products: [],
-    cart: [],
-    cartOpen: false,
-    categories: [],
-    currentCategory: "",
-  });
-
-  return <Provider value={[state, dispatch]} {...props} />;
+const GameProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(
+    (state, newValue) => ({ ...state, ...newValue }),
+    globalState
+  );
+  return (
+    <GameContext.Provider value={state}>
+      <dispatchStateContext.Provider value={dispatch}>
+        {children}
+      </dispatchStateContext.Provider>
+    </GameContext.Provider>
+  );
 };
 
-const useGameContext = () => {
-  return useContext(GameContext);
-};
+const useGlobalState = () => [
+  useContext(GameContext),
+  useContext(dispatchStateContext),
+];
 
-export { GameProvider, useGameContext };
+export { GameProvider, useGlobalState };
