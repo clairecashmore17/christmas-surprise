@@ -3,16 +3,13 @@ import { Link } from "react-router-dom";
 import { Fab } from "@mui/material";
 import Dialogue from "../components/DialogueBox";
 import { useGlobalState } from "../utils/GlobalState";
-import "./santas-ws.css";
-const Note = () => {
+import "./bakery.css";
+const Posters = () => {
   const [state, dispatch] = useGlobalState();
   let dialogue = [];
-  switch (state.santas) {
+  switch (state.bakery) {
     case 2:
-      dialogue = [
-        "Weird…who could have made this? And they went everywhere on the map!",
-        "Sounds suspicious… lets follow their steps!",
-      ];
+      dialogue = ["Hmm.. interesting poster choices..."];
 
       break;
 
@@ -22,21 +19,21 @@ const Note = () => {
   }
   return (
     <div className="centered">
-      <Link to="/santas-workshop">
+      <Link to="/bakery">
         <Fab
           variant="extended"
           onClick={() => {
-            dispatch({ santas: 3, dialogue_index: 0 });
+            dispatch({ bakery: 2, dialogue_index: 0 });
           }}
         >
-          ← Back to WorkShop
+          ← Back to Bakery
         </Fab>
       </Link>
-      <div className="note-page"></div>
+      <div className="posters-page"></div>
       <div className="town-chapters">
         <Dialogue text={dialogue} />
       </div>
     </div>
   );
 };
-export default Note;
+export default Posters;

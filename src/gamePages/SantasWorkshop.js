@@ -38,7 +38,7 @@ const SantasWorkshop = () => {
       dialogue = ["Maybe check the list to see where to go next?"];
       break;
     default:
-      dialogue = [""];
+      dialogue = [];
       break;
   }
 
@@ -52,7 +52,7 @@ const SantasWorkshop = () => {
           <button
             className="radio"
             onClick={() => {
-              dispatch({ santas: 1 });
+              dispatch({ santas: 1, dialogue_index: 0 });
             }}
           ></button>
         </Link>
@@ -60,7 +60,7 @@ const SantasWorkshop = () => {
           <button
             className="note"
             onClick={() => {
-              dispatch({ santas: 2 });
+              dispatch({ santas: 2, dialogue_index: 0 });
             }}
           ></button>
         </Link>

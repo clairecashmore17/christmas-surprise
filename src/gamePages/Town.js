@@ -38,7 +38,7 @@ const Town = () => {
             className="santas-ws"
             onClick={() => {
               console.log("clicked santa");
-              dispatch({ town: 1 });
+              dispatch({ town: 1, dialogue_index: 0 });
               console.log(`town is ${state.town}`);
             }}
           ></button>
@@ -47,7 +47,13 @@ const Town = () => {
           <button className="shack"></button>
         </Link>
         <Link to={"/bakery"}>
-          <button className="bakery"></button>
+          <button
+            className="bakery"
+            onClick={() => {
+              console.log("clicked bakery");
+              dispatch({ dialogue_index: 0 });
+            }}
+          ></button>
         </Link>
       </div>
       <div className="town-chapters">

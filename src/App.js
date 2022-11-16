@@ -12,6 +12,8 @@ import { GameProvider } from "./utils/GlobalState";
 import Dialogue from "./components/DialogueBox";
 import React, { useState, useEffect } from "react";
 import Note from "./gamePages/Note";
+import Posters from "./gamePages/Posters";
+import Karaoke from "./gamePages/Karoake";
 function App() {
   return (
     <Router>
@@ -26,6 +28,8 @@ function App() {
           <Route path="/note" element={<Note />} />
           <Route path="/reindeer-shack" element={<Shack />} />
           <Route path="/bakery" element={<Bakery />} />
+          <Route path="/posters" element={<Posters />} />
+          <Route path="/karaoke" element={<Karaoke />} />
         </Routes>
       </GameProvider>
     </Router>
