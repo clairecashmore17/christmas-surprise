@@ -49,3 +49,12 @@
   border-radius: 15px;
   position: relative;
 }
+
+.dance-page {
+  display: flex;
+  flex-direction: column;
+}
+.dance-img {
+  width: 900px;
+  height: 800px;
+}

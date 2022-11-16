@@ -2,10 +2,52 @@
   width: 980px;
   height: 650px;
   background-image: url(../../public/images/reindeer-background.jpg);
-  background-size: 100%;
+  background-position: center;
+  background-size: 101%;
   background-repeat: no-repeat;
-
   border: solid 15px rgba(88, 53, 7, 0.863);
   border-radius: 15px;
   position: relative;
+}
+
+.final-page {
+  position: relative;
+  background-image: url("../../public/images/jail-santa.jpg");
+  width: 900px;
+  height: 800px;
+}
+.key-code {
+  position: absolute;
+
+  top: 44.4%;
+  right: 44.97%;
+  background: none;
+  border: none;
+  height: 59px;
+  width: 55px;
+}
+.key-code:hover {
+  background-image: url("../../public/images/code-key.png");
+  background-position: center;
+  background-size: 114%;
+  background-repeat: no-repeat;
+}
+.input-code {
+  background-color: silver;
+  border: red solid 5px;
+}
+.finish {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  height: 100px;
+  width: 700px;
+  font-size: xx-large;
+  background-color: green;
+  color: rgb(95, 7, 7);
+  border: red 2px solid;
+  border-radius: 15px;
+}
+.finish:hover {
+  background-color: rgb(111, 204, 111);
 }

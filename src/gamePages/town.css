@@ -5,6 +5,11 @@
   display: block;
   position: relative;
 }
+.Santa {
+  /* background-image: url('../../public/images/Santa.png'); */
+  width: 977px;
+  height: 250px;
+}
 .santas-ws {
   position: absolute;
   top: 10%;

@@ -23,22 +23,39 @@ const Town = () => {
       ];
       break;
     case 1:
-      dialogue = ["Chapter 2"];
+      dialogue = [
+        "You've done it! You've solved the case!",
+        "Congratulations Cashmore family, you guys are the heroes of Christmas!",
+        "Speaking of... I believe you guys have some Christmas day festivities to get to...",
+        "Merry Christmas!",
+      ];
+      break;
+    case "nothing":
+      dialogue = [];
       break;
     default:
-      dialogue = [""];
+      dialogue = [];
       break;
   }
 
   return (
     <div className="centered">
       <div className="town">
+        {state.game_over ? (
+          <>
+            {" "}
+            <img src={"./images/Santa.JPG"} className="Santa" />
+          </>
+        ) : (
+          <></>
+        )}
+
         <Link to={"/santas-workshop"}>
           <button
             className="santas-ws"
             onClick={() => {
               console.log("clicked santa");
-              dispatch({ town: 1, dialogue_index: 0 });
+              dispatch({ dialogue_index: 0 });
               console.log(`town is ${state.town}`);
             }}
           ></button>

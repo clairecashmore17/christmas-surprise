@@ -14,6 +14,8 @@ import React, { useState, useEffect } from "react";
 import Note from "./gamePages/Note";
 import Posters from "./gamePages/Posters";
 import Karaoke from "./gamePages/Karoake";
+import FinalBoss from "./gamePages/FinalBoss";
+import Dance from "./gamePages/Dance";
 function App() {
   return (
     <Router>
@@ -26,10 +28,12 @@ function App() {
           <Route path="/town" element={<Town />} />
           <Route path="/santas-workshop" element={<SantasWorkshop />} />
           <Route path="/note" element={<Note />} />
+          <Route path="/dance" element={<Dance />} />
           <Route path="/reindeer-shack" element={<Shack />} />
           <Route path="/bakery" element={<Bakery />} />
           <Route path="/posters" element={<Posters />} />
           <Route path="/karaoke" element={<Karaoke />} />
+          <Route path="/final-boss" element={<FinalBoss />} />
         </Routes>
       </GameProvider>
     </Router>

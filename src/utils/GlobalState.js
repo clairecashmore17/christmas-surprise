@@ -6,6 +6,8 @@ const globalState = {
   bakery: 0,
   reindeer: 0,
   dialogue_index: 0,
+  challenge: false,
+  game_over: false,
 };
 const GameContext = createContext(globalState);
 const dispatchStateContext = createContext(undefined);

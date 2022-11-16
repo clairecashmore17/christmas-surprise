@@ -57,7 +57,14 @@ const Bakery = () => {
   return (
     <div className="centered">
       <Link to="/town">
-        <Fab variant="extended">← Back to Town</Fab>
+        <Fab
+          variant="extended"
+          onClick={() => {
+            dispatch({ dialogue_index: 0 });
+          }}
+        >
+          ← Back to Town
+        </Fab>
       </Link>
       <div className="bakery-building">
         <Link to="/bakery">
