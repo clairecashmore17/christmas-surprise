@@ -41,7 +41,7 @@ const Dance = () => {
       </Link>
       <div className="dance-page">
         {" "}
-        <img src={`/images/${gif[currentDance]}.gif`} className="dance-img" />
+        <img src={`./images/${gif[currentDance]}.gif`} className="dance-img" />
         {currentDance + 1 != gif.length ? (
           <>
             <button
