@@ -22,7 +22,7 @@ const FinalBoss = () => {
         "Santa: 'Ho... ho.. HO! Hello!'",
         "Santa: 'I've been stuck here since Christmas Eve. The only way to get out it to get the right combination.",
         "Santa: 'He always presses the dial 4 times, so there must be four numbers.",
-        "Santa: 'Maybe you guys should check your cards to solve this one?'",
+        "Santa: 'Maybe you guys should check your cards to solve this one? Maybe '",
       ];
 
       break;
@@ -42,7 +42,7 @@ const FinalBoss = () => {
   const handleCodeButton = (event) => {
     event.preventDefault();
     console.log(code);
-    if (code === "1247") {
+    if (code === "210212348150") {
       console.log("Correct!");
       setFinished(true);
       setToggle(false);
