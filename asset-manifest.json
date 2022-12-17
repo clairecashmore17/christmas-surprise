@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christmas-surprise/static/css/main.e37ff6b1.css",
-    "main.js": "/christmas-surprise/static/js/main.c3827372.js",
+    "main.js": "/christmas-surprise/static/js/main.d86f9de8.js",
     "static/js/787.4566b993.chunk.js": "/christmas-surprise/static/js/787.4566b993.chunk.js",
     "static/media/bakery-background.png": "/christmas-surprise/static/media/bakery-background.36d260c04f5d5fc4bbb7.png",
     "static/media/posters.png": "/christmas-surprise/static/media/posters.6c4f0bca447eb8ff505f.png",
@@ -21,11 +21,11 @@
     "static/media/Bakery.png": "/christmas-surprise/static/media/Bakery.79e270bb12b7cab06f1f.png",
     "index.html": "/christmas-surprise/index.html",
     "main.e37ff6b1.css.map": "/christmas-surprise/static/css/main.e37ff6b1.css.map",
-    "main.c3827372.js.map": "/christmas-surprise/static/js/main.c3827372.js.map",
+    "main.d86f9de8.js.map": "/christmas-surprise/static/js/main.d86f9de8.js.map",
     "787.4566b993.chunk.js.map": "/christmas-surprise/static/js/787.4566b993.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e37ff6b1.css",
-    "static/js/main.c3827372.js"
+    "static/js/main.d86f9de8.js"
   ]
 }
