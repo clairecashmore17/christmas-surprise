@@ -1,12 +1,18 @@
 {
   "files": {
     "main.css": "/christmas-surprise/static/css/main.e37ff6b1.css",
-    "main.js": "/christmas-surprise/static/js/main.c3599e26.js",
+    "main.js": "/christmas-surprise/static/js/main.bc0b8643.js",
     "static/js/787.4566b993.chunk.js": "/christmas-surprise/static/js/787.4566b993.chunk.js",
+    "static/media/good-job.gif": "/christmas-surprise/static/media/good-job.594c81ffd2ec7b486f1e.gif",
+    "static/media/mean-girls.gif": "/christmas-surprise/static/media/mean-girls.c492ec72f5d938e75e12.gif",
+    "static/media/swanky.gif": "/christmas-surprise/static/media/swanky.1e85dccd279cf1e220e3.gif",
+    "static/media/shoot.gif": "/christmas-surprise/static/media/shoot.1647c9382f86e5997023.gif",
+    "static/media/running_man.gif": "/christmas-surprise/static/media/running_man.10fbc5b5cf7f64a224ee.gif",
     "static/media/bakery-background.png": "/christmas-surprise/static/media/bakery-background.36d260c04f5d5fc4bbb7.png",
     "static/media/posters.png": "/christmas-surprise/static/media/posters.6c4f0bca447eb8ff505f.png",
     "static/media/cork-board.jpg": "/christmas-surprise/static/media/cork-board.995bdce234ae25f9bbd5.jpg",
     "static/media/cork-board-hover.jpg": "/christmas-surprise/static/media/cork-board-hover.ca0c68e9c898e349fed6.jpg",
+    "static/media/wave.gif": "/christmas-surprise/static/media/wave.fadf81d9ae70461fc5ec.gif",
     "static/media/george.png": "/christmas-surprise/static/media/george.3e5d09305e6385679bb3.png",
     "static/media/Santasworkshop.jpg": "/christmas-surprise/static/media/Santasworkshop.a91905bdf51ae29e0396.jpg",
     "static/media/jail-santa.jpg": "/christmas-surprise/static/media/jail-santa.876057416596aa2e0304.jpg",
@@ -21,11 +27,11 @@
     "static/media/Bakery.png": "/christmas-surprise/static/media/Bakery.79e270bb12b7cab06f1f.png",
     "index.html": "/christmas-surprise/index.html",
     "main.e37ff6b1.css.map": "/christmas-surprise/static/css/main.e37ff6b1.css.map",
-    "main.c3599e26.js.map": "/christmas-surprise/static/js/main.c3599e26.js.map",
+    "main.bc0b8643.js.map": "/christmas-surprise/static/js/main.bc0b8643.js.map",
     "787.4566b993.chunk.js.map": "/christmas-surprise/static/js/787.4566b993.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e37ff6b1.css",
-    "static/js/main.c3599e26.js"
+    "static/js/main.bc0b8643.js"
   ]
 }
