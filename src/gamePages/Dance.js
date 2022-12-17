@@ -42,7 +42,7 @@ const Dance = () => {
       <div className="dance-page">
         {" "}
         <img
-          src={require(`../images/${gif[currentDance]}.gif`)}
+          src={require(`../../public/images/${gif[currentDance]}.gif`)}
           className="dance-img"
           alt="dance gif"
         />
