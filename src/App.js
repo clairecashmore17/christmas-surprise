@@ -23,7 +23,7 @@ function App() {
         <Nav />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/highscores" element={<Highscore />} />
+          <Route exact path="/ratings" element={<Highscore />} />
           <Route exact path="/characters" element={<Characters />} />
           <Route path="/town" element={<Town />} />
           <Route path="/santas-workshop" element={<SantasWorkshop />} />

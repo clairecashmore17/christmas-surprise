@@ -14,8 +14,8 @@ const AppNavbar = () => {
             </Link>
           </Fab>
           <Fab className="nav-item" variant="extended">
-            <Link color="inherit" to={"/highscores"}>
-              Highscore
+            <Link color="inherit" to={"/ratings"}>
+              Rate The Game
             </Link>
           </Fab>
           <Fab className="nav-item" variant="extended">
