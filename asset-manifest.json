@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2dd2064.css",
+    "main.js": "/static/js/main.49d9262a.js",
+    "static/js/787.4566b993.chunk.js": "/static/js/787.4566b993.chunk.js",
+    "static/media/bakery-background.png": "/static/media/bakery-background.36d260c04f5d5fc4bbb7.png",
+    "static/media/posters.png": "/static/media/posters.6c4f0bca447eb8ff505f.png",
+    "static/media/cork-board.jpg": "/static/media/cork-board.995bdce234ae25f9bbd5.jpg",
+    "static/media/cork-board-hover.jpg": "/static/media/cork-board-hover.ca0c68e9c898e349fed6.jpg",
+    "static/media/george.png": "/static/media/george.3e5d09305e6385679bb3.png",
+    "static/media/Santasworkshop.jpg": "/static/media/Santasworkshop.a91905bdf51ae29e0396.jpg",
+    "static/media/jail-santa.jpg": "/static/media/jail-santa.876057416596aa2e0304.jpg",
+    "static/media/Note-page.jpg": "/static/media/Note-page.af440c53ec085f87a8f7.jpg",
+    "static/media/TownMap.png": "/static/media/TownMap.71c0ee5c29699ddd5687.png",
+    "static/media/reindeer-background.jpg": "/static/media/reindeer-background.e528f5130859fe9de207.jpg",
+    "static/media/radio-hover.png": "/static/media/radio-hover.73a9dda212465df5edf7.png",
+    "static/media/daisy.png": "/static/media/daisy.1ccaf63c0fa6eaa3a840.png",
+    "static/media/peeking-elf.jpeg": "/static/media/peeking-elf.01250c86f5afcaea7403.jpeg",
+    "static/media/reindeer-hover.gif": "/static/media/reindeer-hover.d2172959f8cb0046f886.gif",
+    "static/media/Santas-House.png": "/static/media/Santas-House.5d18b0f77fb283a81c85.png",
+    "static/media/Bakery.png": "/static/media/Bakery.79e270bb12b7cab06f1f.png",
+    "index.html": "/index.html",
+    "main.d2dd2064.css.map": "/static/css/main.d2dd2064.css.map",
+    "main.49d9262a.js.map": "/static/js/main.49d9262a.js.map",
+    "787.4566b993.chunk.js.map": "/static/js/787.4566b993.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2dd2064.css",
+    "static/js/main.49d9262a.js"
+  ]
+}
