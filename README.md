@@ -17,7 +17,7 @@
 
 ## About the Project
 
-![GameScreenShot](./snow-cap.png)<br />
+![GameScreenShot](./snow-cap.JPG)<br />
 [Deployment](https://clairecashmore17.github.io/christmas-surprise/)
 
 
@@ -30,7 +30,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/clairecashmore17/claire-cashmore-portfolio.git
+   git clone https://github.com/clairecashmore17/christmas-surprise.git
    ```
 2. Install Dependencies
    ```sh
