@@ -21,8 +21,9 @@ const FinalBoss = () => {
       dialogue = [
         "Santa: 'Ho... ho.. HO! Hello!'",
         "Santa: 'I've been stuck here since Christmas Eve. The only way to get out it to get the right combination.",
-        "Santa: 'He always presses the dial 4 times, so there must be four numbers.",
-        "Santa: 'Maybe you guys should check your cards to solve this one? Maybe '",
+        "Santa: 'He always mumbled something when he was typing in the code... What was it...",
+        "Santa: 'Oh yes! 'Weakness then resisantce all by years length.' I always thought he was crazy.",
+        "Santa: 'Maybe you guys should check your cards to solve this one?'",
       ];
 
       break;

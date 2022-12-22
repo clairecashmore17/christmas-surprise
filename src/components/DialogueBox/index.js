@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import React from "react";
 import { useGlobalState } from "../../utils/GlobalState";
 import "./index.css";
 const Dialogue = (props) => {
@@ -23,7 +22,7 @@ const Dialogue = (props) => {
   return (
     <>
       <div className="dialog-box">
-        {state.dialogue_index == dialog_texts.length ? (
+        {state.dialogue_index === dialog_texts.length ? (
           <></>
         ) : (
           <>

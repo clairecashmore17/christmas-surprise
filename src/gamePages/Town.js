@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Dialogue from "../components/DialogueBox";
 import { useGlobalState } from "../utils/GlobalState";
@@ -44,7 +44,7 @@ const Town = () => {
         {state.game_over ? (
           <>
             {" "}
-            <img src={"./images/Santa.JPG"} className="Santa" />
+            <img src={"./images/Santa.JPG"} className="Santa" alt="santa flying across the sky!" />
           </>
         ) : (
           <></>

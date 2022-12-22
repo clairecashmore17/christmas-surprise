@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import DialogueBox from "../components/DialogueBox";
 const Home = () => {
-  const [map, selectMap] = useState("home");
   return (
     <div className="homepage">
       <Link to={"/town"}>

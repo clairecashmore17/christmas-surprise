@@ -46,7 +46,7 @@ const Dance = () => {
           className="dance-img"
           alt="dance gif"
         />
-        {currentDance + 1 != gif.length ? (
+        {currentDance + 1 !== gif.length ? (
           <>
             <button
               className="next-btn"

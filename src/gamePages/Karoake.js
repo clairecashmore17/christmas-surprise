@@ -31,6 +31,7 @@ const Karaoke = () => {
       </Link>
       <div className="karoake-page">
         <iframe
+        title="last-christmas-dance-karaoke"
           width="720"
           height="615"
           src="https://www.youtube.com/embed/Ktm-Y_l-ftY"

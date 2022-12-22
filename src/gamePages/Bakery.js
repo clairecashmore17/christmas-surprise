@@ -28,7 +28,7 @@ const Bakery = () => {
       dialogue = [
         "Daisy: 'Oh my goodness! I’m such a sucker for Christmas songs!'",
         "Daisy: 'You guys have such amazing voices! Let’s see… '",
-        "yesterday we only had one order since everyone else was pretty busy getting the slay ready.",
+        "Daisy: 'yesterday we only had one order since everyone else was pretty busy getting the sleigh ready.'",
         "Daisy: 'Oh! I remember this order! It was odd, '",
         "Daisy: 'someone ordered poppy seed muffins with 10x the poppy-seed! '",
         "Daisy: 'We usually avoid poppyseed with the reindeers around because it can be rather poisonous and cause them to get sick'",
@@ -85,7 +85,7 @@ const Bakery = () => {
             ></button>
           </Link>
         </Link>
-        {state.bakery == 2 ? (
+        {state.bakery === 2 ? (
           <div className="centered">
             <ButtonGroup
               variant="contained"
@@ -107,7 +107,7 @@ const Bakery = () => {
                       dispatch({ bakery: "karoake" });
                     }}
                   >
-                    <a href=""></a>Play a Retro Christmas Song
+                    Play a Retro Christmas Song
                   </Button>
                 </Link>
               </Link>
